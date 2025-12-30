@@ -7,7 +7,7 @@ use adw::prelude::*;
 use gtk::{gio, glib};
 
 use crate::config::{APP_ID, PROFILE};
-use crate::modals::{
+use crate::ui::{
     about::AboutDialog, bluetooth::BluetoothModel, display::DisplayModel, network::NetworkModel,
     notifications::NotificationsModel, wifi::WifiModel,
 };
